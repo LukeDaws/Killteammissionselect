@@ -151,6 +151,7 @@ else:
     for i in range(len(miss_list)):
         print(f"Missions in list:{miss_list[i]}")
 
+#This is what actually selects a mission
 first = random.randrange(1,13)
 if first == 2:
     second = random.randrange(1,7)
